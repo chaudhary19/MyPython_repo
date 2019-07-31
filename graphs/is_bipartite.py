@@ -1,3 +1,4 @@
+# if your graph indexing starts from 1...n then write color=[-1]*(n+1) and loop from 1 to n+1
 def is_bipartite(graph):
     n = len(graph)
     color = [-1] * n
